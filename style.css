@@ -1,0 +1,103 @@
+*{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    background: url(One_Piece_Thousand_Sunny.png);
+    background-size: cover;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid white;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+.logoAndCross{
+    flex: 1;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    flex: 4;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross{
+    flex: 1;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.webpages{
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.comp{
+    display: flex;
+}
+
+.icon, .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    flex: 1;
+}
+
+ion-icon{
+    font-size: 1.5rem;
+}
+
+.title{
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialMedia{
+    flex: 1;
+    display: flex;
+}
+
+.socialMediaComp{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
