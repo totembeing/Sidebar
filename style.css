@@ -27,14 +27,14 @@ body, html{
     display: none;
     flex-direction: column;
     height: 100%;
-    width: 20%;
+    width: 15rem;
     border-right: 1px solid white;
     flex-direction: column;
     backdrop-filter: blur(10px);
 }
 
 .logoAndCross{
-    flex: 1;
+    height: 13%;
     border-bottom: 1px solid white;
     display: flex;
     justify-content: center;
@@ -61,10 +61,9 @@ body, html{
 }
 
 .content{
-    flex: 6;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    height: 86%;
 }
 
 .webpages{
@@ -101,6 +100,7 @@ ion-icon{
 .socialMedia{
     flex: 1;
     display: flex;
+    align-items: end;
 }
 
 .socialMediaComp{
